@@ -14,6 +14,13 @@
 | locate (-i =ignore-case)      |      Locate a file by name      |
 | find <directory> -name <name> |      Finds a file by name       |
 | grep                          | Search for text in a given file |
+| df                            |      Show disk space usage      |
+| du -h fileName                |         Show file size          |
+| head -n 10 fileName           |  Show first n lines of a file   |
+| tail -n fileName              |   Show last n lines of a file   |
+| diff file1 file2              |     Show diff of two files      |
+| chmod                         |     Change file permissions     |
+| chown                         |     Change owner of a file      |
 
 ## Show content of directory (ls)
 
@@ -35,6 +42,23 @@
 |-------------------|:----------------------------:|
 | rm -r <directory> | Remove directory and content |
 | rm -i *           |  Prompt before file removal  |
+
+## File permissions (chmod)
+
+``chmod u=rwx,g=rx,o=r fileName``
+
+   - user can read, write and execute the file
+   - group members can read and execute the file
+   - others can read the file 
+
+Alternative
+``chmod 754 fileName``
+   - 4 = read
+   - 2 = write
+   - 1 = execute
+   - 0 = no permission
+   - 7 = 4+2+1 (read, write, execute)
+   - 5 = 4+1 (read, execute)
 
 
 # GIT Commands
