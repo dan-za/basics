@@ -21,6 +21,7 @@
 | diff file1 file2              |     Show diff of two files      |
 | chmod                         |     Change file permissions     |
 | chown                         |     Change owner of a file      |
+| top                           |     Show running processes      |
 
 ## Show content of directory (ls)
 
@@ -66,6 +67,7 @@ Alternative
 | Command                             |                Description                |
 |-------------------------------------|:-----------------------------------------:|
 | git status                          |      State of git working directory       |
+| git fetch                           |              Fetch branches               |
 | git add -u .                        |   Add deleted and unmodified files only   |
 | git add (-A)                        |             Add (all) file(s)             |
 | git commit -m 'comment'             |       Commit changes to local repo        |
