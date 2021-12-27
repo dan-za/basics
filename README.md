@@ -1,4 +1,4 @@
-# Overview
+# Linux Commands
 
 | Command                       |           Description           |
 |-------------------------------|:-------------------------------:|
@@ -37,3 +37,4 @@
 | rm -i *           |  Prompt before file removal  |
 
 
+# GIT Commands
