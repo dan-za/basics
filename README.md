@@ -38,3 +38,11 @@
 
 
 # GIT Commands
+
+| Command                 |                Description                |
+|-------------------------|:-----------------------------------------:|
+| git status              |      State of git working directory       |
+| git add -u .            |   Add deleted and unmodified files only   |
+| git add (-A)            |             Add (all) file(s)             |
+| git commit -m 'comment' |       Commit changes to local repo        |
+| git push origin master  | Push changes in local repo to remote repo |
