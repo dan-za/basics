@@ -74,16 +74,20 @@ Alternative
 
 # GIT Commands
 
-| Command                             |                Description                |
-|-------------------------------------|:-----------------------------------------:|
-| git status                          |      State of git working directory       |
-| git fetch                           |              Fetch branches               |
-| git add -u .                        |   Add deleted and unmodified files only   |
-| git add (-A)                        |             Add (all) file(s)             |
-| git commit -m 'comment'             |       Commit changes to local repo        |
-| git push origin master              | Push changes in local repo to remote repo |
-| git checkout -b branchName          |        Create and switch to branch        |
-| git checkout master                 |               Switch branch               |
-| git merge branchName                |     Merge branch into current branch      |
-| git branch -d branchName            |            Delete local branch            |
-| git push origin --delete branchName |           Delete remote branch            |
+| Command                                                         |                          Description                           |
+|-----------------------------------------------------------------|:--------------------------------------------------------------:|
+| git init                                                        | Create an empty Git repository or reinitialize an existing one |
+| git remote add origin git@github.com:dan-za/myRepo.git          |                     Add remote repository                      |
+| git config --get remote.origin.url OR git remote get-url origin |                   Show remote repository URL                   |
+| git status                                                      |                 State of git working directory                 |
+| git fetch                                                       |                Checks if changes are available                 |
+| git pull                                                        |                         Pulls changes                          |
+| git add -u .                                                    |             Add deleted and unmodified files only              |
+| git add (-A)                                                    |                       Add (all) file(s)                        |
+| git commit -m 'comment'                                         |                  Commit changes to local repo                  |
+| git push origin master                                          |           Push changes in local repo to remote repo            |
+| git checkout -b branchName                                      |                  Create and switch to branch                   |
+| git checkout master                                             |                         Switch branch                          |
+| git merge branchName                                            |                Merge branch into current branch                |
+| git branch -d branchName                                        |                      Delete local branch                       |
+| git push origin --delete branchName                             |                      Delete remote branch                      |
