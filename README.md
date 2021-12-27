@@ -63,14 +63,15 @@ Alternative
 
 # GIT Commands
 
-| Command                    |                Description                |
-|----------------------------|:-----------------------------------------:|
-| git status                 |      State of git working directory       |
-| git add -u .               |   Add deleted and unmodified files only   |
-| git add (-A)               |             Add (all) file(s)             |
-| git commit -m 'comment'    |       Commit changes to local repo        |
-| git push origin master     | Push changes in local repo to remote repo |
-| git checkout -b branchName |        Create and switch to branch        |
-| git checkout master        |               Switch branch               |
-| git merge branchName       |     Merge branch into current branch      |
-| git branch -d branchName   |               Delete branch               |
+| Command                             |                Description                |
+|-------------------------------------|:-----------------------------------------:|
+| git status                          |      State of git working directory       |
+| git add -u .                        |   Add deleted and unmodified files only   |
+| git add (-A)                        |             Add (all) file(s)             |
+| git commit -m 'comment'             |       Commit changes to local repo        |
+| git push origin master              | Push changes in local repo to remote repo |
+| git checkout -b branchName          |        Create and switch to branch        |
+| git checkout master                 |               Switch branch               |
+| git merge branchName                |     Merge branch into current branch      |
+| git branch -d branchName            |            Delete local branch            |
+| git push origin --delete branchName |           Delete remote branch            |
