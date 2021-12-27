@@ -47,3 +47,5 @@
 | git commit -m 'comment'    |       Commit changes to local repo        |
 | git push origin master     | Push changes in local repo to remote repo |
 | git checkout -b branchName |        Create and switch to branch        |
+| git checkout master        |               Switch branch               |
+| git merge branchName       |     Merge branch into current branch      |
