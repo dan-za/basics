@@ -91,3 +91,4 @@ Alternative
 | git merge branchName                                            |                Merge branch into current branch                |
 | git branch -d branchName                                        |                      Delete local branch                       |
 | git push origin --delete branchName                             |                      Delete remote branch                      |
+| git log                                                         |                      Show commit history                       |
