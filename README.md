@@ -1,29 +1,37 @@
 # Linux Commands
 
-| Command                       |             Description              |
-|-------------------------------|:------------------------------------:|
-| pwd                           |        Path of folder I'm in         |
-| cd                            |           Change directory           |
-| ls                            |      Show content of directory       |
-| cat                           |          List file content           |
-| touch <file>                  |            Create a file             |
-| cp <target> <destination>     |              Copy files              |
-| mv <target> <destination>     |         Move or rename files         |
-| mkdir                         |        Create a new directory        |
-| rm                            |     Remove files or directories      |
-| locate (-i =ignore-case)      |        Locate a file by name         |
-| find <directory> -name <name> |         Finds a file by name         |
-| grep                          |   Search for text in a given file    |
-| df                            |        Show disk space usage         |
-| du -h fileName                |            Show file size            |
-| head -n 10 fileName           |     Show first n lines of a file     |
-| tail -n fileName              |     Show last n lines of a file      |
-| diff file1 file2              |        Show diff of two files        |
-| chmod                         |       Change file permissions        |
-| chown                         |        Change owner of a file        |
-| top                           |        Show running processes        |
-| ctrl + r                      | Reverse search for executed commands |
-| wget <url>                    |            Download files            |
+| Command                                       |                                Description                                 |
+|-----------------------------------------------|:--------------------------------------------------------------------------:|
+| pwd                                           |                           Path of folder I'm in                            |
+| cd                                            |                              Change directory                              |
+| ls                                            |                         Show content of directory                          |
+| cat                                           |                             List file content                              |
+| less                                          |                   List file content. Scrolling possible                    |
+| touch <file>                                  |                               Create a file                                |
+| ln -s <target> <link>                         |                         Create a symlink to a file                         |
+| cp <target> <destination>                     |                                 Copy files                                 |
+| mv <target> <destination>                     |                            Move or rename files                            |
+| mkdir                                         |                           Create a new directory                           |
+| rm                                            |                        Remove files or directories                         |
+| locate (-i =ignore-case)                      |                           Locate a file by name                            |
+| find <directory> -name <name>                 |                            Finds a file by name                            |
+| grep                                          |                      Search for text in a given file                       |
+| df                                            |                           Show disk space usage                            |
+| du -h fileName                                |                               Show file size                               |
+| head -n 10 fileName                           |                        Show first n lines of a file                        |
+| tail -n fileName                              |                        Show last n lines of a file                         |
+| diff file1 file2                              |                           Show diff of two files                           |
+| chmod                                         |                          Change file permissions                           |
+| chown                                         |                           Change owner of a file                           |
+| top                                           |                           Show running processes                           |
+| ctrl + r                                      |                    Reverse search for executed commands                    |
+| wget <url>                                    |                               Download files                               |
+| alias anExample='date +%H:%M:%S'              |           Create an alias. (Will be removed if shell is closed!)           |
+| unalias anExample                             |                                Remove alias                                |
+| let                                           |                      Evaluate arithmetic expressions                       |
+| \>                                            |                           Overwrite file content                           |
+| \>>                                           |                            Append file content                             |
+| find /var -name syslog 2> /dev/null 1> syslog | Errors (2) will be removed. Only normal output (1) will be written to file |
 
 ## Show content of directory (ls)
 
