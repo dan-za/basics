@@ -32,7 +32,7 @@
 | \>                                            |                           Overwrite file content                           |
 | \>>                                           |                            Append file content                             |
 | find /var -name syslog 2> /dev/null 1> syslog | Errors (2) will be removed. Only normal output (1) will be written to file |
-
+| cmd1&#124;cmd2                                |                 Data from cm1 will be transferred to cmd2                  |
 ## Show content of directory (ls)
 
 | Command |             Description             |
