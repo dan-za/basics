@@ -49,3 +49,4 @@
 | git checkout -b branchName |        Create and switch to branch        |
 | git checkout master        |               Switch branch               |
 | git merge branchName       |     Merge branch into current branch      |
+| git branch -d branchName   |               Delete branch               |
