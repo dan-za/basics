@@ -1,27 +1,29 @@
 # Linux Commands
 
-| Command                       |           Description           |
-|-------------------------------|:-------------------------------:|
-| pwd                           |      Path of folder I'm in      |
-| cd                            |        Change directory         |
-| ls                            |    Show content of directory    |
-| cat                           |        List file content        |
-| touch <file>                  |          Create a file          |
-| cp <target> <destination>     |           Copy files            |
-| mv <target> <destination>     |      Move or rename files       |
-| mkdir                         |     Create a new directory      |
-| rm                            |   Remove files or directories   |
-| locate (-i =ignore-case)      |      Locate a file by name      |
-| find <directory> -name <name> |      Finds a file by name       |
-| grep                          | Search for text in a given file |
-| df                            |      Show disk space usage      |
-| du -h fileName                |         Show file size          |
-| head -n 10 fileName           |  Show first n lines of a file   |
-| tail -n fileName              |   Show last n lines of a file   |
-| diff file1 file2              |     Show diff of two files      |
-| chmod                         |     Change file permissions     |
-| chown                         |     Change owner of a file      |
-| top                           |     Show running processes      |
+| Command                       |             Description              |
+|-------------------------------|:------------------------------------:|
+| pwd                           |        Path of folder I'm in         |
+| cd                            |           Change directory           |
+| ls                            |      Show content of directory       |
+| cat                           |          List file content           |
+| touch <file>                  |            Create a file             |
+| cp <target> <destination>     |              Copy files              |
+| mv <target> <destination>     |         Move or rename files         |
+| mkdir                         |        Create a new directory        |
+| rm                            |     Remove files or directories      |
+| locate (-i =ignore-case)      |        Locate a file by name         |
+| find <directory> -name <name> |         Finds a file by name         |
+| grep                          |   Search for text in a given file    |
+| df                            |        Show disk space usage         |
+| du -h fileName                |            Show file size            |
+| head -n 10 fileName           |     Show first n lines of a file     |
+| tail -n fileName              |     Show last n lines of a file      |
+| diff file1 file2              |        Show diff of two files        |
+| chmod                         |       Change file permissions        |
+| chown                         |        Change owner of a file        |
+| top                           |        Show running processes        |
+| ctrl + r                      | Reverse search for executed commands |
+| wget <url>                    |            Download files            |
 
 ## Show content of directory (ls)
 
