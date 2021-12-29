@@ -7,15 +7,15 @@
 | ls                                            |                         Show content of directory                          |
 | cat                                           |                             List file content                              |
 | less                                          |                   List file content. Scrolling possible                    |
-| touch <file>                                  |                               Create a file                                |
-| ln -s <target> <link>                         |                         Create a symlink to a file                         |
-| ln -sfn <path to new target> java             |                     Change target of existing symlink                      |
-| cp <target> <destination>                     |                                 Copy files                                 |
-| mv <target> <destination>                     |                            Move or rename files                            |
+| touch \<file\>                                |                               Create a file                                |
+| ln -s \<target\> \<link\>                     |                         Create a symlink to a file                         |
+| ln -sfn \<path to new target\> java           |                     Change target of existing symlink                      |
+| cp <target> \<destination\>                   |                                 Copy files                                 |
+| mv <target> \<destination\>                   |                            Move or rename files                            |
 | mkdir                                         |                           Create a new directory                           |
 | rm                                            |                        Remove files or directories                         |
 | locate (-i =ignore-case)                      |                           Locate a file by name                            |
-| find <directory> -name <name>                 |                            Finds a file by name                            |
+| find \<directory\> -name \<name\>             |                            Finds a file by name                            |
 | grep                                          |                      Search for text in a given file                       |
 | df                                            |                           Show disk space usage                            |
 | du -h fileName                                |                               Show file size                               |
@@ -26,7 +26,7 @@
 | chown                                         |                           Change owner of a file                           |
 | top                                           |                           Show running processes                           |
 | ctrl + r                                      |                    Reverse search for executed commands                    |
-| wget <url>                                    |                               Download files                               |
+| wget \<url\>                                  |                               Download files                               |
 | alias anExample='date +%H:%M:%S'              |           Create an alias. (Will be removed if shell is closed!)           |
 | unalias anExample                             |                                Remove alias                                |
 | let                                           |                      Evaluate arithmetic expressions                       |
