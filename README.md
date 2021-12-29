@@ -9,6 +9,7 @@
 | less                                          |                   List file content. Scrolling possible                    |
 | touch <file>                                  |                               Create a file                                |
 | ln -s <target> <link>                         |                         Create a symlink to a file                         |
+| ln -sfn <path to new target> java             |                     Change target of existing symlink                      |
 | cp <target> <destination>                     |                                 Copy files                                 |
 | mv <target> <destination>                     |                            Move or rename files                            |
 | mkdir                                         |                           Create a new directory                           |
